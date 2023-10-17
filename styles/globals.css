@@ -1,0 +1,10 @@
+@import '_mixins.css';
+@import '_fonts.css';
+@import '_variables.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-default);
+}

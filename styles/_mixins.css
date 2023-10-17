@@ -1,0 +1,24 @@
+@custom-media --min-xs (min-width: 29.6875rem);
+@custom-media --min-sm (min-width: 40rem);
+@custom-media --min-md (min-width: 48rem);
+@custom-media --min-lg (min-width: 64rem);
+@custom-media --min-xl (min-width: 80rem);
+@custom-media --min-xxl (min-width: 96rem);
+@custom-media --min-xxxl (min-width: 100rem);
+
+@custom-media --max-xs (max-width: 29.6875rem);
+@custom-media --max-sm (max-width: 40rem);
+@custom-media --max-md (max-width: 48rem);
+@custom-media --max-lg (max-width: 64rem);
+@custom-media --max-xl (max-width: 80rem);
+@custom-media --max-xxl (max-width: 96rem);
+@custom-media --max-xxxl (max-width: 100rem);
+
+/*
+Örnek Kullanım:
+
+@media (--min-xs) {
+	
+} 
+
+*/

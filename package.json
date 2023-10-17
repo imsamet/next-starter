@@ -9,13 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "classnames": "^2.3.2",
+    "next": "13.5.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.5.10",
+    "@svgr/cli": "^6.4.0",
     "autoprefixer": "^10",
     "postcss": "^8",
+    "postcss-custom-media": "^10.0.2",
+    "postcss-nested": "^6.0.1",
+    "css-loader": "^5.2.7",
+    "style-loader": "^2.0.0",
     "tailwindcss": "^3"
   }
 }
