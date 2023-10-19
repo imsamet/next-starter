@@ -1,9 +1,13 @@
-/* eslint-disable */
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-class MyDocument extends Document {
-  render() {
-    return <Html></Html>;
-  }
-}
+import { Html, Head, Main, NextScript } from 'next/document';
 
-export default MyDocument;
+export default function Document() {
+  return (
+    <Html lang="en">
+      <Head />
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
+}

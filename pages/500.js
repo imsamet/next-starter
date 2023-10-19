@@ -1,4 +1,4 @@
-import ErrorSection from '@/components/sections/errorSection';
+import Errors from '@/components/errors';
 export default function Error({ layoutData, homeData, errorMessage }) {
-  return <ErrorSection status="500 Error" />;
+  return <Errors status="500 Error" />;
 }

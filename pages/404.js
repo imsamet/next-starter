@@ -1,4 +1,4 @@
-import ErrorSection from '@/components/sections/errorSection';
-export default function Home({ layoutData, homeData }) {
-  return <ErrorSection />;
+import Errors from '@/components/errors';
+export default function Home({}) {
+  return <Errors />;
 }
