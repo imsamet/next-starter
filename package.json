@@ -21,13 +21,14 @@
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-links": "^6.5.10",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.5.10",
     "@svgr/cli": "^6.4.0",
     "autoprefixer": "^10",
+    "css-loader": "^5.2.7",
     "postcss": "^8",
     "postcss-custom-media": "^10.0.2",
     "postcss-nested": "^6.0.1",
-    "css-loader": "^5.2.7",
     "style-loader": "^2.0.0",
     "tailwindcss": "^3"
   }
