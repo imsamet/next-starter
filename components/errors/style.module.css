@@ -1,43 +1,18 @@
 .section {
-  height: 100vh;
+  @apply h-screen;
 }
 .container {
-  height: 100%;
+  @apply h-full;
 }
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  @apply flex flex-col justify-center items-center h-full;
   span {
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
+    @apply text-base [font-stretch:normal] not-italic leading-[1.38] text-center text-[#000];
   }
   h1 {
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
+    @apply text-[45px] [font-stretch:normal] not-italic leading-[1.22] text-center text-[#000];
   }
   h2 {
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
+    @apply text-base [font-stretch:normal] not-italic leading-[1.38] text-center text-[#000];
   }
 }

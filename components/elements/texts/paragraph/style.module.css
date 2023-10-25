@@ -1,0 +1,13 @@
+.paragraph {
+  @apply text-white
+  not-italic font-normal leading-[150.023%];
+}
+.p1 {
+  @apply text-sm;
+}
+.p2 {
+  @apply text-xs;
+}
+.p3 {
+  @apply text-[10px];
+}

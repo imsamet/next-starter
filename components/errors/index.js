@@ -4,14 +4,15 @@ import cn from 'classnames';
 import styles from './style.module.css';
 import Link from 'next/link';
 import Button from '@/components/elements/button';
+import Heading from '../elements/texts/heading';
 const Error = ({ status, title, desc, buttonText, buttonLink }) => {
   return (
     <section className={cn('section', styles.section)}>
       <div className={cn('container', styles.container)}>
         <div className={styles.content}>
           <span>{status}</span>
-          <h1>{title}</h1>
-          <h2>{desc}</h2>
+          <Heading type="h1">{title}</Heading>
+          <Heading type="h2">{desc}</Heading>
           <Link href={buttonLink} passHref legacyBehavior>
             <Button type="secondary" className={styles.button}>
               {buttonText}
