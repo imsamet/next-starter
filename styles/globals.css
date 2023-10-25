@@ -1,10 +1,18 @@
 @import '_mixins.css';
 @import '_fonts.css';
 @import '_variables.css';
+@import '_grid-system.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
-body {
+body,
+* {
   padding: 0;
   margin: 0;
   font-family: var(--font-default);
+}
+.container {
+  @apply mx-auto;
 }
