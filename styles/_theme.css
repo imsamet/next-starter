@@ -1,0 +1,6 @@
+@layer dv-components {
+  .dv-transition {
+    transition: var(--delay);
+    transition-timing-function: cubic-bezier(0.25, 0.74, 0.22, 0.99);
+  }
+}

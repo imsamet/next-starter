@@ -18,6 +18,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@csstools/postcss-global-data": "^2.1.0",
     "@storybook/addon-actions": "^7.5.0",
     "@storybook/addon-essentials": "^7.5.0",
     "@storybook/addon-links": "^7.5.0",
@@ -29,6 +30,7 @@
     "postcss": "^8",
     "postcss-custom-media": "^10.0.2",
     "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^9.2.0",
     "style-loader": "^3.3.3",
     "tailwindcss": "^3"
   }

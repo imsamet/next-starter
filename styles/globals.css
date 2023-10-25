@@ -1,10 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import '_mixins.css';
 @import '_fonts.css';
 @import '_variables.css';
 @import '_grid-system.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import '_theme.css';
 
 html,
 body,
