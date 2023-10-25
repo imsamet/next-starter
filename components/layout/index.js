@@ -1,10 +1,10 @@
 import cn from 'classnames';
 import styles from './style.module.css';
-
+import Nav from '../nav';
 const Layout = ({ children }) => {
   return (
     <>
-      {/* <Nav /> */}
+      <Nav />
       {children}
     </>
   );
