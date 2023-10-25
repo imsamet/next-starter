@@ -1,0 +1,21 @@
+.nav {
+  @apply flex items-center justify-between flex-wrap bg-[var(--dark-blue)] p-6;
+}
+.logoBox {
+  @apply flex items-center flex-shrink-0 text-white mr-6;
+}
+.logo {
+  @apply fill-current h-8 w-8 mr-2;
+}
+.logoText {
+  @apply font-semibold text-xl tracking-tight;
+}
+.contentBox {
+  @apply w-full block flex-grow lg:flex lg:items-center lg:w-auto;
+}
+.itemBox {
+  @apply text-sm lg:flex-grow;
+}
+.item {
+  @apply block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4;
+}
