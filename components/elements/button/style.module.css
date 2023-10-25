@@ -13,7 +13,7 @@
   text-center
   text-sm
   not-italic
-  font-normal
+  font-normal;
   min-width: 70px;
   background: var(--dark-blue);
   &.secondary {
