@@ -1,9 +1,14 @@
 /* Samet Çetin github.com/imsamet
   Custom Tailwind Grid System
 */
-
+.container {
+  @apply mx-auto 
+  px-4;
+}
 .row {
-  @apply flex flex-wrap -mr-4 -ml-4;
+  @apply flex
+  flex-wrap
+  -mx-4;
 }
 
 .col-1,
@@ -102,10 +107,13 @@
 .col-xxxl-10,
 .col-xxxl-11,
 .col-xxxl-12 {
-  @apply pr-4 pl-4;
+  @apply px-4;
 }
 
 /* Default Screen */
+.col {
+  @apply flex-[1_0_0%];
+}
 .col-1 {
   flex: 0 0 8.333333%;
   max-width: 8.333333%;
