@@ -1,16 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
-import Style from './style.module.css';
+import styles from './style.module.css';
 
-const Heading = ({ type, className, children }) => {
+const Heading = ({ colored, type, className, children }) => {
   const Tag = type || 'h2';
-  return <Tag className={cn(Style.heading, Style[type], className)}>{children}</Tag>;
+  const ColoredItem = ({ text }) => <span className={styles.colored}>{text}</span>;
+  const text = colored
+    ? children
+        .replace(colored, `${colored}xxx${colored}`)
+        .split(colored)
+        .map(i => (i === 'xxx' ? <ColoredItem text={colored} /> : i))
+    : children;
+  return <Tag className={cn(styles.heading, styles[type], className)}>{text}</Tag>;
 };
 
 Heading.propTypes = {
   type: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
   children: PropTypes.node,
+  colored: PropTypes.string,
 };
 
 export default Heading;

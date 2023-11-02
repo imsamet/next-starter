@@ -1,6 +1,12 @@
 :root {
   --font-default: Graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
   --font-secondary: '';
-  --delay: 200ms;
-  --dark-blue: #13212e;
+  --delay: 0.4s;
+  --black: #000;
+  --white: #fff;
+  --blue: #1a5ed4;
+  --dark-blue: #041d2c;
+  --error: #d41a1a;
+  --soft-grey: #d9d9d9;
+  --grey: #9ba5ab;
 }

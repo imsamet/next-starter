@@ -1,7 +1,7 @@
 .heading {
   @apply not-italic 
   font-bold
-  text-white
+  text-[var(--white)]
   leading-[150.023%];
 }
 .h1 {
@@ -24,4 +24,7 @@
 }
 .h6 {
   @apply text-sm;
+}
+.colored {
+  @apply text-[var(--blue)];
 }

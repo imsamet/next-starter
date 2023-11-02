@@ -1,5 +1,5 @@
 .paragraph {
-  @apply text-white
+  @apply text-[var(--white)]
   not-italic font-normal leading-[150.023%];
 }
 .p1 {

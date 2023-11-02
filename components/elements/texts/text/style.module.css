@@ -1,0 +1,88 @@
+.text {
+  @apply text-[var(--white)]
+  not-italic font-normal leading-[150.023%];
+  /* Color */
+  &.wihte {
+    @apply text-[var(--white)];
+  }
+  &.black {
+    @apply text-[var(--black)];
+  }
+  &.grey {
+    @apply text-[var(--grey)];
+  }
+  &.soft-grey {
+    @apply text-[var(--soft-grey)];
+  }
+  &.dark-blue {
+    @apply text-[var(--dark-blue)];
+  }
+  &.blue {
+    @apply text-[var(--blue)];
+  }
+  /* Size */
+  &.xs {
+    @apply text-xs;
+  }
+  &.sm {
+    @apply text-sm;
+  }
+  &.lg {
+    @apply text-lg;
+  }
+  &.xl {
+    @apply text-xl;
+  }
+  &.2xl {
+    @apply text-2xl;
+  }
+  &.3xl {
+    @apply text-2xl;
+  }
+  &.4xl {
+    @apply text-4xl;
+  }
+  &.5xl {
+    @apply text-5xl;
+  }
+  &.6xl {
+    @apply text-6xl;
+  }
+  &.7xl {
+    @apply text-7xl;
+  }
+  &.7xl {
+    @apply text-8xl;
+  }
+  &.9xl {
+    @apply text-9xl;
+  }
+  /* Weight */
+  &.thin {
+    @apply font-thin;
+  }
+  &.extralight {
+    @apply font-extralight;
+  }
+  &.light {
+    @apply font-light;
+  }
+  &.normal {
+    @apply font-normal;
+  }
+  &.medium {
+    @apply font-medium;
+  }
+  &.semibold {
+    @apply font-semibold;
+  }
+  &.bold {
+    @apply font-bold;
+  }
+  &.extrabold {
+    @apply font-extrabold;
+  }
+  &.black {
+    @apply font-black;
+  }
+}
