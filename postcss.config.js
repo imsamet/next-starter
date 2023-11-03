@@ -1,7 +1,7 @@
 module.exports = {
   plugins: {
     '@csstools/postcss-global-data': {
-      files: ['styles/_mixins.css', 'styles/_theme.css'],
+      files: ['app/styles/_mixins.css', 'app/styles/_theme.css'],
     },
     'postcss-preset-env': {
       features: {
