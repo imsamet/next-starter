@@ -1,7 +1,8 @@
+/** @type {import('postcss-load-config').Config} */
 module.exports = {
   plugins: {
     '@csstools/postcss-global-data': {
-      files: ['styles/_mixins.css', 'styles/_theme.css'],
+      files: ['src/styles/_mixins.css', 'src/styles/_theme.css'],
     },
     'postcss-preset-env': {
       features: {

@@ -1,5 +1,5 @@
-import '../styles/globals.css';
-import '../styles/storybook.css';
+import '../src/styles/globals.css';
+import '../src/styles/storybook.css';
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {

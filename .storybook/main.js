@@ -20,8 +20,7 @@ module.exports = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@/components': path.resolve(__dirname, '../components'),
-      '@/constants': path.resolve(__dirname, '../constants'),
+      '@/src': path.resolve(__dirname, '../src'),
       '/img': path.resolve(__dirname, '../public'),
       '/assets': path.resolve(__dirname, '../public/assets'),
     };
